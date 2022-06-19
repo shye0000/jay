@@ -227,9 +227,9 @@
                 </div>
               </a-col>
               <a-col class="gutter-row" :xs="{ span: 24 }" :md="{ span: 11, offset: 1 }">
-                <p class="fet fet3">Jay Chou</p>
+                <p class="fet fet2">Jay Chou</p>
                 <p class="ttc">
-                  Jay Chou is a asian musician, singer-songwriter,
+                  Jay Chou is an asian musician, singer-songwriter,
                   multi-instrumentalist, actor and director. He has sold more
                   than 30 million albums since his debut and dubbed the "King of
                   Mandopop". Jay Chou has won numerous awards in the music
@@ -409,7 +409,7 @@
                     drop info, and special releases!
                   </p>
                 </div>
-                <button class="joinDis">Join Discord</button>
+                <a href="https://discord.com/invite/76Pw2fnghR" class="joinDis">Join Discord</a>
               </div>
             </a-col>
             <a-col class="gutter-row s2r" :xs="{ span: 22, offset: 2 }" :md="{ span: 6, offset: 2 }">
@@ -427,7 +427,7 @@
                   Blockchain, a secure and transparent digital ledger.
                 </p>
                 <p class="footer_title footer_title2">
-                  © 2022 Paris Saint-Germain and JHB</p>
+                  © 2022 Paris Saint-Germain and JHB.fr</p>
                 <!--<p class="footer_agreement" @click="goDetail">Terms & Conditions</p> -->
               </div>
             </a-col>
@@ -804,7 +804,7 @@ export default {
 .section2 {
   background-color: #1a2434;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .s2list {
@@ -835,6 +835,10 @@ export default {
   width: 100%;
   position: absolute;
   bottom: 0px;
+}
+
+.s6tig img {
+  height: 350px;
 }
 
 .section3 {
@@ -923,8 +927,10 @@ export default {
   padding: 14px 45px;
   border-radius: 20px;
   border: 1px solid #fff;
+  background-color: buttonface;
   cursor: pointer;
   margin-top: 87px;
+  display: inline-block;
 }
 
 .joinDis:hover {
@@ -998,7 +1004,7 @@ export default {
   display: inline-block;
   padding: 5px 20px;
   border-radius: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 50px!important;
   background: linear-gradient(to right, #024076, #F0A3EC);
 }
 
@@ -1248,7 +1254,6 @@ export default {
 
   .mgb30 {
     padding-bottom: 80px;
-    border-bottom: 1px solid #070000;
   }
 
   .mg50 {
@@ -1256,7 +1261,12 @@ export default {
   }
 
   .section3 {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 25px 0;
+  }
+
+  .section4 {
+    padding: 25px 0;
   }
 
   .roadmap {
@@ -1303,7 +1313,7 @@ export default {
   }
 
   .s6rt {
-    margin-bottom: 10px;
+    margin-bottom: 10px!important;
     padding: 5px 15px;
   }
 
