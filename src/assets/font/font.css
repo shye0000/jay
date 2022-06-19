@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "PSG-inline";
+    src: url("./PSG-inline.otf"); 
+}@font-face {
+    font-family: "PSG-Light";
+    src: url("./PSG-Light.otf");
+}@font-face {
+    font-family: "PSG-Regular";
+    src: url("./PSG-Regular.otf");
+}
